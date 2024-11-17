@@ -1,0 +1,29 @@
+
+items:
+  taser:
+    item: STICK
+    model: 1
+    name: "&e&lTaser"
+    lore:
+    - "&7Ammo: &f&l%charge%"
+  reload:
+    item: PHANTOM_MEMBRANE
+    model: 1
+    name: "&eAmmo &lTaser"
+    lore:
+    - "&7Use this ammo to reload the taser."
+
+taser:
+  back-taser: true
+  max-ammo: 3
+  max-distance: 4.0
+  duration: 3
+  delay: 3
+  reload-sound: "BLOCK_STONE_BUTTON_CLICK_ON"
+  unload-sound: "BLOCK_STONE_BUTTON_CLICK_OFF"
+  sound:
+    - "BLOCK_ANVIL_LAND;2;2;1"
+  effects:
+    - "BLINDNESS;3;30"
+  title: "&6&lBzZzZzZz!"
+  subtitle: "&eYou received an electric shock!"

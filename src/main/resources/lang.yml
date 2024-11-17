@@ -1,0 +1,25 @@
+
+messages:
+  no-perms: "&cInsufficient permission."
+  unknown-command: "&cUnknown command! Use /taser help for the command list."
+  item-received: "&aItem received"
+  player-offline: "&cPlayer not found."
+  item-given: "&aYou succesfuly gave %player% an item."
+  plugin-reload: "&aPlugin succesfully reloaded in %ms%ms"
+  plugin-help:
+    - "&#628CFA&lTaser Help Command"
+    - "&#628CFA| &f/taser get [taser/reload]"
+    - "&#628CFA| &f/taser give <player> [taser/reload]"
+    - "&#628CFA| &f/taser reload"
+
+taser:
+  taser-empty: "<action-bar>&cThe taser is &lempty!"
+  taser-full: "<action-bar>&cThe taser is &lfull!"
+  too-far: "<action-bar>&cThe player is too far &laway!"
+  delay: "<action-bar>&cWait before using the taser again!"
+  cant-use: "<action-bar>&cYou can't use the taser right now."
+  player-exempted: "<action-bar>&cYou can't use the taser against %player%"
+  player-blocking: "<action-bar>&cPlayer is &lblocking!"
+  interaction-blocked: "<action-bar>&cYour interaction has been blocked because you are tasered!"
+  reload-succesfully: "<action-bar>&aReload completed!"
+  unload-succesfully: "<action-bar>&aUnload completed!"

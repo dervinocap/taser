@@ -1,0 +1,6 @@
+name: taser
+version: '${version}'
+main: me.dervinocap.taser.Taser
+api-version: '1.13'
+commands:
+  taser:
