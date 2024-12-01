@@ -44,7 +44,6 @@ public class Utils {
     }
 
     public static boolean isTaser(ItemStack item) {
-
         if (item.getAmount() == 0 || item.getType().equals(Material.AIR) || item == null) return false;
 
         NBTItem nbti = new NBTItem(item);
